@@ -8,6 +8,7 @@ public class ViewController {
 
     @GetMapping("/")
     public String homePage() {
+         System.out.println("home page accessed");
         return "home";
     }
 
