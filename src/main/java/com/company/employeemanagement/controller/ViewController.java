@@ -13,13 +13,14 @@ public class ViewController {
 
     @GetMapping("/register-page")
     public String registerPage() {
+        System.out.println("register page accessed");
         return "register";
     }
 
     @GetMapping("/login-page")
     public String loginPage() {
         System.out.println("Login page accessed");
-        
+
         return "login";
     }
 
