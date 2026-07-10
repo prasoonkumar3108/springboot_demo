@@ -18,6 +18,8 @@ public class ViewController {
 
     @GetMapping("/login-page")
     public String loginPage() {
+        System.out.println("Login page accessed");
+        
         return "login";
     }
 
