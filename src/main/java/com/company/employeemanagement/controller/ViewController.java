@@ -27,6 +27,7 @@ public class ViewController {
 
     @GetMapping("/dashboard")
     public String dashboardPage() {
+         System.out.println("dashboard page accessed");
         return "dashboard";
     }
 }
